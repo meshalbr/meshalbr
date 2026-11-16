@@ -16,12 +16,14 @@ Artificial Intelligence student at Imam Abdulrahman Bin Faisal University (class
 
 Live Saudi Sign Language recognition from a webcam or phone camera, on a laptop with no GPU.
 
+**[Try it live in your browser](https://meshalbr.github.io/saudi-sign-language-recognition/)**: runs fully on your device, nothing is uploaded.
+
 ![Demo: camera with skeleton, what the model sees, live prediction](https://raw.githubusercontent.com/meshalbr/saudi-sign-language-recognition/main/docs/demo.gif)
 
 - **85.8% on signers it has never seen** (KArSL-100), against a published 68.2%
 - 2 MB ONNX model, under 2 ms per prediction on a CPU; video never leaves the device
 - Browser app for laptop and phone with live Arabic and English results
-- Ready to run: the trained model is in the [v1.0 release](https://github.com/meshalbr/saudi-sign-language-recognition/releases/tag/v1.0), one command downloads everything
+- Shipped three ways: the live browser demo, a Docker image built and tested by GitHub Actions on every push, and the trained model in the [v1.0 release](https://github.com/meshalbr/saudi-sign-language-recognition/releases/tag/v1.0)
 
 `PyTorch` `MediaPipe` `Transformer` `ONNX Runtime` `FastAPI`
 
