@@ -16,9 +16,12 @@ Artificial Intelligence student at Imam Abdulrahman Bin Faisal University (class
 
 Live Saudi Sign Language recognition from a webcam or phone camera, on a laptop with no GPU.
 
+![Demo: camera with skeleton, what the model sees, live prediction](https://raw.githubusercontent.com/meshalbr/saudi-sign-language-recognition/main/docs/demo.gif)
+
 - **85.8% on signers it has never seen** (KArSL-100), against a published 68.2%
 - 2 MB ONNX model, under 2 ms per prediction on a CPU; video never leaves the device
 - Browser app for laptop and phone with live Arabic and English results
+- Ready to run: the trained model is in the [v1.0 release](https://github.com/meshalbr/saudi-sign-language-recognition/releases/tag/v1.0), one command downloads everything
 
 `PyTorch` `MediaPipe` `Transformer` `ONNX Runtime` `FastAPI`
 
@@ -26,7 +29,7 @@ Live Saudi Sign Language recognition from a webcam or phone camera, on a laptop 
 
 | Repository | What it is |
 |------------|------------|
-| [Natural-Language-Processing-9MA2-labs](https://github.com/meshalbr/Natural-Language-Processing-9MA2-labs) | NLP labs organised one folder per lab (tokenisation and regex, n-gram language models, text classification, TF-IDF and Word2Vec), each with a README, the notebook and a Markdown version with outputs |
+| [Natural-Language-Processing-9MA2-labs](https://github.com/meshalbr/Natural-Language-Processing-9MA2-labs) | 13 NLP labs, from text preprocessing and n-gram language models to POS tagging, NER, neural machine translation, attention, Transformers (BERT, DistilBERT) and retrieval for RAG. Each lab has the tasks solved step by step and executed, plus a README and a Markdown version with outputs |
 | [Image-Processing-8MA2-Labs](https://github.com/meshalbr/Image-Processing-8MA2-Labs) | Ten image-processing labs with OpenCV: transforms, filtering, frequency domain, edge detection, morphology, segmentation |
 | [Machine-Learning-8MA2-Labs](https://github.com/meshalbr/Machine-Learning-8MA2-Labs) | Data quality, preprocessing and PCA on a 145k-row weather dataset |
 
